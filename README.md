@@ -1,14 +1,47 @@
 # pdfjbr
-PDF Manipulator
 
+## Introduction
+
+
+## Requirements
+Before running this tool you need to install:
+- PyInstaller in version 3.2.1
+- PyPDF2 in version 1.26.0
+
+
+## Usage
+Split the pdf `file.pdf` in several pdf files containing 5 pages each
+```shell
+pdfjbr split 5 file.pdf
 ```
-       use:
- 
-       pdfjbr split 5 file.pdf              File file.pdf in PDFs with 5 pages each
-       pdfjbr chunk 3 file.pdf outputDir    File file.pdf can be divided by up to 3 MB by PDFs
-       pdfjbr burst file.pdf                Write each single page in file.pdf in a PDF
-       pdfjbr merge f1.pdf f2.pdf           F1.pdf and f2.pdf merge into a PDF
-       pdfjbr merge output.pdf dir          Merge all PDFs in the dir directory into output.pdf
-       pdfjbr info f1.pdf                   Displays document information (size, page number, title, ...) at f1.pdf
-       pdfjbr pagecount file.pdf            Displays information about the number of pages in the document
+
+Devide the pdf `file.pdf` in several pdf files of 3 MB
+```shell
+pdfjbr chunk 3 file.pdf outputDir
 ```
+
+Split the pdf `file.pdf` in several pdf containing 1 page each (equivalent to `pdfjbr split 1 file.pdf`)
+```shell
+pdfjbr burst file.pdf
+```
+
+Merge 2 pdf files `f1.pdf` and `f2.pdf` into a single pdf file
+```shell
+pdfjbr merge f1.pdf f2.pdf                
+```                
+
+Merge all pdfs in the directory `dir` into a single output pdf file `output.pdf`
+```shell
+pdfjbr merge output.pdf dir
+```
+
+Display document information (size, page number, title, ...) of the pdf file `file.pdf`
+```shell
+pdfjbr info file.pdf
+```
+
+Display the number of pages of the pdf file `file.pdf`
+```shell
+pdfjbr pagecount file.pdf
+```
+
