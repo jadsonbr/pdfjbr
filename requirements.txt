@@ -1,2 +1,0 @@
-PyInstaller==3.2.1
-PyPDF2==1.26.0
