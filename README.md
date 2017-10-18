@@ -1,13 +1,15 @@
-# Introduction
+#pdfjbr
+
+## Introduction
 
 
-# Requirements
+## Requirements
 Before running this tool you need to install:
 - PyInstaller in version 3.2.1
 - PyPDF2 in version 1.26.0
 
 
-# Usage
+## Usage
 Split the pdf `file.pdf` in several pdf files containing 5 pages each
 ```shell
 pdfjbr split 5 file.pdf
