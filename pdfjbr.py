@@ -1,8 +1,8 @@
 #!/usr/bin/env python 
 # -*- encoding: latin1 -*-
 
-__author__ = 'jadsonbr@outlook.com.br <Jadson B. Ribeiro>'
-__copyright__ = "Copyright 2017 by Jadson Bonfim Ribeiro <jadsonbr@outlook.com.br>"
+__author__ = 'contato@jadsonbr.com.br <Jadson B. Ribeiro>'
+__copyright__ = "Copyright 2017 by Jadson Bonfim Ribeiro <contato@jadsonbr.com.br>"
 __licence__ = "MIT Licence"
 __version__ = "0.1.1"
 
