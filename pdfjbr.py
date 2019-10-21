@@ -1,8 +1,8 @@
 #!/usr/bin/env python 
 # -*- encoding: latin1 -*-
 
-__author__ = 'jadsonbr@outlook.com.br <Jadson B. Ribeiro>'
-__copyright__ = "Copyright 2017 by Jadson Bonfim Ribeiro <jadsonbr@outlook.com.br>"
+__author__ = 'contato@jadsonbr.com.br <Jadson B. Ribeiro>'
+__copyright__ = "Copyright 2017 by Jadson Bonfim Ribeiro <contato@jadsonbr.com.br>"
 __licence__ = "MIT Licence"
 __version__ = "0.1.1"
 
@@ -233,7 +233,7 @@ def merge(inpdfs, outpdf):
 def _intro():
     print(90 * "=")
     print(40 * " " + "PDF Manipulator")
-    print(15 * " " + "(c) 2017 by Jadson Bonfim Ribeiro  |  E-mail: jadsonbr@outlook.com.br")
+    print(15 * " " + "(c) 2017 by Jadson Bonfim Ribeiro  |  E-mail: contato@jadsonbr.com.br")
     print(90 * "=")
     print("""
        use:
