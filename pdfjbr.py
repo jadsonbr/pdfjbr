@@ -233,7 +233,7 @@ def merge(inpdfs, outpdf):
 def _intro():
     print(90 * "=")
     print(40 * " " + "PDF Manipulator")
-    print(15 * " " + "(c) 2017 by Jadson Bonfim Ribeiro  |  E-mail: jadsonbr@outlook.com.br")
+    print(15 * " " + "(c) 2017 by Jadson Bonfim Ribeiro  |  E-mail: contato@jadsonbr.com.br")
     print(90 * "=")
     print("""
        use:
